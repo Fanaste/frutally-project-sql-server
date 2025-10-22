@@ -7,17 +7,6 @@ DROP DATABASE SUCOS_VENDAS_2; -- Remove o banco de dados Sucos_Vendas_2
 
 -- Criando tabelas:
 
-/*Colunas:
-CPF;
-Nome completo;
-Endereço completo;
-Data de nascimento;
-Idade;
-Sexo;
-Limite de crédito;
-Volume mínimo de compra de produto;
-Se já realizou alguma compra na empresa.*/
-
 CREATE TABLE [TABELA DE CLIENTES] ( -- SEMPRE USAR COLCHETES PARA NOMES COM ESPAÇOS
 
 [CPF] [CHAR] (11),
@@ -215,3 +204,4 @@ WHERE [CODIGO DO PRODUTO] = '1088126';
 
 DELETE FROM [TABELA DE PRODUTOS]
 WHERE [CODIGO DO PRODUTO] = '1004327';
+
